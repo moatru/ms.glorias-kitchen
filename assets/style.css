@@ -18,7 +18,7 @@
 
   body {
     font-family: 'Noto Sans HK', sans-serif;
-    color: rgb(120,120,125);
+    color: #462f27;
   }
 
    /* this overrides the default padding and margin on gridlex elements */
@@ -32,7 +32,7 @@
   .right    {  text-align: right;    }
   .centered {  text-align: center;   }
 
-  .padded   {  padding: 5%;    }
+  .padded   {  padding: 2% 5%;    }
   .padded-1 {  padding: 1rem;  }
   .padded-2 {  padding: 2rem;  }
 
@@ -56,9 +56,9 @@
     font-family: 'Playfair Display', serif;
   }
 
-  h2  { font-size: 2.2rem;  }
+  h2  { font-size: 2rem;  }
   h3  { font-size: 1.8rem;  }
-  h4  { font-size: 1.4rem;  }
+  h4  { font-size: 1.2rem;  }
   p   { font-size: 1rem;  }
 
   p, ul {
@@ -98,9 +98,16 @@
 
   /* Icons */
 
-  .far {        /* default styles for font awesome icons */
-    font-size: 2rem;
+  .far, .fab, .fas {        /* default styles for font awesome icons */
+    font-size: 1.5rem;
     margin-bottom: 1rem;
+    color: #7bb59b;
+    transition: all 1s;
+  }
+
+  .far:hover, .fab:hover, .fas:hover {        /* default styles for font awesome icons */
+    color: #462f27;
+    transition: all 1s;
   }
 
   .featured-stat {     /* styles for our featured statistic icons  */
@@ -154,14 +161,17 @@
   }
 
   .button-solid {
-    background-color: #e67e22;
-    border-color: #e67e22;
-    color: white;
+    background-color: #7bb59b;
+    border-color: #7bb59b;
+    color: #462f27;
+    transition: all 1s;
   }
 
   .button-solid:hover {
-    background-color: rgb(60, 60, 60);
-    border-color: rgb(60, 60, 60);
+    background-color: #462f27;
+    border-color: #462f27;
+    color: white;
+    transition: all 1s;
   }
 
   .arrow { /* this is the arrow button */
@@ -196,6 +206,8 @@
   nav a {
     text-decoration: none;
     color: inherit;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   header nav a,
