@@ -6,3 +6,26 @@
 
 .bottom   {  margin-bottom: 1rem;}
 .pad-bottom   {  padding-bottom: 1rem;}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    left:10px;
+    padding:0px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0);
+}
+
+.dropdown-content a {
+  display:block;
+  padding:5px 0px;
+  text-align:left;
+  white-space:nowrap;
+}
+
+.dropdown-nav {
+  position:relative;
+}
+.dropdown-nav:hover .dropdown-content {
+    display: block;
+}
