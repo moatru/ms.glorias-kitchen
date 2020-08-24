@@ -367,7 +367,7 @@
     background-image: url('../images/aboutfood.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    /* min-height: 50vh; */
   }
 
   .fixed {
