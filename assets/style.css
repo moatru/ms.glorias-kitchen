@@ -246,7 +246,7 @@
     margin: 0 0.5rem;
     /* background-color: rgba(255, 255, 255, 0.3); */
     border-radius: 2px;
-    color: white;
+    color: #462f27;
     transition: all 1s;
   }
 
@@ -294,7 +294,7 @@
 
   header.fixed {
     position: absolute;
-    background-color: rgba(235, 223, 201, 0.0);
+    background-color: rgba(255, 255, 255, 0.5);
     top:0;
     left:0;
     right:0;
