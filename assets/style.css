@@ -34,7 +34,7 @@
 
   .padded   {  padding: 2% 5%;    }
   .padded-1 {  padding: 1rem;  }
-  .padded-2 {  padding: 2rem;  }
+  .padded-2 {  padding: 0rem 2rem;  }
   .padded-connect {  padding-top: 1rem;   }
 
   .capped-width { width: 80%; margin: auto;}

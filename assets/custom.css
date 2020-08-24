@@ -10,16 +10,21 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
     left:10px;
     padding:0px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0);
     z-index: 20;
 }
 
+.spoon {
+  font-size: 1rem;
+  margin-bottom: 0rem;
+}
+
 .dropdown-content a {
   display:block;
-  padding:5px 0px;
+  padding:5px 1.5rem;
   text-align:left;
   white-space:nowrap;
 }
