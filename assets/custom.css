@@ -7,10 +7,13 @@
 .bottom   {  margin-bottom: 1rem;}
 .pad-bottom   {  padding-bottom: 1rem;}
 
+
+
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 1);
     left:10px;
     padding:0px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0);
@@ -20,6 +23,7 @@
 .spoon {
   font-size: 1rem;
   margin-bottom: 0rem;
+  color: #B4D22F
 }
 
 .dropdown-content a {
@@ -27,6 +31,12 @@
   padding:5px 1.5rem;
   text-align:left;
   white-space:nowrap;
+  font-weight: 300;
+  color: #d76e2e;
+}
+
+.dropdown-content a:hover{
+  color: #feaf17;
 }
 
 .dropdown-nav {
@@ -34,4 +44,5 @@
 }
 .dropdown-nav:hover .dropdown-content {
     display: block;
+
 }
