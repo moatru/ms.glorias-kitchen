@@ -371,12 +371,11 @@
     background-image: url('../images/aboutfood.JPG');
     background-size: cover;
     background-position: center;
-    filter:grayscale(100%);
     /* min-height: 50vh; */
   }
 
   .layer {
-    background-color: rgba(247, 147, 30, 0.5);
+    background-color: rgba(247, 147, 30, 0.7);
     position: relative;
     top: 0;
     left: 0;
